@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="Sample1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Sample1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Margin="0" VerticalAlignment="Center">
+            <Button x:Name="ShutdownButton" HorizontalAlignment="Stretch" Margin="0,0,0,10" Click="ShutdownButton_Click">シャットダウン</Button>
+            <Button x:Name="RebootButton" HorizontalAlignment="Stretch" Click="RebootButton_Click">再起動</Button>
+        </StackPanel>
+
+    </Grid>
+</Page>
